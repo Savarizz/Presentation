@@ -57,10 +57,12 @@ nav {
         display: flex;
         justify-content: center;
         width: 100vw;
+        display: none
     }
 
     .nav {
         position: static;
+        display: none
         top: 0px;
     }
 
