@@ -123,6 +123,7 @@
         border-left: none;
         border-top: solid 2px white;
         padding: 15px 0px;
+        text-align: center;
         font-size: 17px;
     }
 
@@ -130,6 +131,7 @@
         border-right: none;
         border-bottom: solid 2px white;
         padding: 20px 0px;
+        text-align: center;
         font-size: 17px;
     }
 
