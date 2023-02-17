@@ -1,5 +1,3 @@
-import '../node_modules/jquery/dist/jquery.min.js'
-
 function carregarPag() {
    $('body').children().each((index, child) => {
       if(index < 5) {
