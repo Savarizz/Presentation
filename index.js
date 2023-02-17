@@ -1,1 +1,1 @@
-import '/js/loadPages.js'
+import 'js/loadPages.js'
