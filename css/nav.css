@@ -1,0 +1,72 @@
+.navSection {
+    height: 40px;
+    width: 100vw;
+}
+
+nav {
+    background-color: #222;
+    position: fixed;
+    z-index: 1000;
+    transition: 0.6s ease-in-out;
+    top: 0;
+}
+
+.zeroPointNav {
+    background-color: #222;
+    transition: 0.6s;
+}
+
+
+.sticky {
+    transition: 0.6s ease-in-out;
+    background-color: white;
+}
+
+.sticky a {
+    color: black !important
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    transition: 0.3s ease-in-out
+}
+
+.zeroPointNav a {
+    color: white;
+}
+
+.zeroPointNav a:hover {
+    color: white;
+}
+
+.sticky a:hover {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .navSection {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .nav {
+        position: static;
+        top: 0px;
+    }
+
+    .nav a {
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+}
+

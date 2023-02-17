@@ -1,0 +1,156 @@
+.mainSection {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-xadrez {
+    background-color: #242424;
+}
+
+.text-header {
+    font-family: 'Outfit';
+    font-size: 51px;
+    padding: 0px 25px;
+}
+
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+}
+
+.muted {
+    padding: 0px 25px;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-80px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(80px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.text-body-left {
+    border-left: solid 2px white;
+    font-size: calc(1.325rem + .6vw)
+}
+
+.text-body-right {
+    border-right: solid 2px white;
+    font-size: calc(1.325rem + .6vw)
+}
+
+.habSection {
+    width: 75vw;
+    height: 50vh;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    border-right: solid 1px white;
+}
+
+.contact {
+    width: 70%;
+}
+
+.habContainer {
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px white;
+}
+
+.zeroPoint {
+    background-color: transparent;
+    transition: 1.5s ease-out;
+}
+
+.bg-next {
+    background-color: #6FD3CD;
+}
+
+.bg-unreal {
+    background-color: #000000;
+}
+
+.bg-react {
+    background-color: #1C1C1C;
+}
+
+.bg-c {
+    background-color: #FFFFFF;
+}
+
+.bg-python {
+    background-color: #2A2E49;
+}
+
+.bg-html {
+    background-color: #FF6D00;
+}
+
+.bg-css {
+    background-color: #173459;
+}
+
+.bg-js {
+    background-color: #F7E018;
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        flex-direction: column;
+ 
+ 
+    }
+
+    .text-body-left {
+        border-left: none;
+        border-top: solid 2px white;
+        padding: 15px 0px;
+        font-size: 17px;
+    }
+
+    .text-body-right {
+        border-right: none;
+        border-bottom: solid 2px white;
+        padding: 20px 0px;
+        font-size: 17px;
+    }
+
+    .muted {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .text-header {
+        font-size: 42px;
+    }
+
+    .habSection {
+        border-right: none;
+        border-bottom: solid 1px white;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .contact {
+        width: 100%;
+    }
+    
+}
