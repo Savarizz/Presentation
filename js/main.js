@@ -64,7 +64,6 @@ function animeScroll() {
 
 const returnedFunction = debounce(function() {
     animeScroll();
-    console.log('ajdasuhbd')
 }, 10)
 
 if(animateTarget.length) {
